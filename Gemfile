@@ -14,10 +14,16 @@ gem 'puma', '~> 3.7'
 gem 'devise'
 # jQuery
 gem 'jquery-rails'
+# Font Awesome
+gem 'font-awesome-rails'
 # Bootstrap
 gem 'twitter-bootstrap-rails'
 # Views modifications for boostrap
 gem 'devise-bootstrap-views'
+# Make HTML look nice
+gem 'htmlbeautifier'
+# Annotate important schema information
+gem 'annotate'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
