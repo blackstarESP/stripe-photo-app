@@ -12,8 +12,12 @@ gem 'rails', '~> 5.1.6'
 gem 'puma', '~> 3.7'
 # Devise for authentication management
 gem 'devise'
+# Stripe for payment processing
+gem 'stripe'
 # jQuery
 gem 'jquery-rails'
+# Helper gem to support adherence to Ruby styling conventions
+gem 'rubocop'
 # Font Awesome
 gem 'font-awesome-rails'
 # Bootstrap
@@ -22,6 +26,8 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 # Make HTML look nice
 gem 'htmlbeautifier'
+# Make CSS look nice
+gem 'cssbeautify'
 # Annotate important schema information
 gem 'annotate'
 # Use SCSS for stylesheets
